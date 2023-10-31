@@ -1,4 +1,47 @@
-.container{
-    display: grid;
-    gap: 10px;
+.body {
+  background-color: #ecf2f7;
+}
+.container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 50%;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.Daniel {
+  background-color: #7140c7;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 2px 2px rgba(54, 54, 54, 0.075);
+}
+
+.Jonathan {
+  background-color: #49556a;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 2px 2px rgba(54, 54, 54, 0.075);
+}
+
+.Jeanette {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 2px 2px rgba(54, 54, 54, 0.075);
+}
+
+.Kira {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 2px 2px rgba(54, 54, 54, 0.075);
+}
+
+.Patrick{
+  background-color: #19202c;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: opx opx rgba(54, 54, 54, 0.075);
 }
