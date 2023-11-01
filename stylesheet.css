@@ -1,32 +1,64 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 .body {
   background-color: #ecf2f7;
-}
-.container {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 50%;
-  height: 50%;
+  height: 100vh;
+  width: 100%;
+}
+
+.container {
+  display: grid;
+  width: 70%;
+  height: 70%;
   gap: 10px;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
 }
+
 .Daniel {
   background-color: #7140c7;
-  padding: 20px;
-  border-radius: 5px;
+  padding: 40px;
+  border-radius: 10px;
   box-shadow: 2px 2px rgba(54, 54, 54, 0.075);
+  grid-column: span 2;
+  color: white;
 }
 
+.heading {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  gap: 10px;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  font-size: large;
+  gap: 5px;
+}
+
+.images {
+  width: 50px;
+  height: 50px;
+  border: solid 5px rgba(255, 255, 255, 0.39);
+  border-radius: 50%;
+}
+
+.quote{
+    margin-left: 500px;
+}
 .Jonathan {
   background-color: #49556a;
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 2px 2px rgba(54, 54, 54, 0.075);
-}
-
-.Jeanette {
-  background-color: white;
   padding: 20px;
   border-radius: 5px;
   box-shadow: 2px 2px rgba(54, 54, 54, 0.075);
@@ -37,11 +69,20 @@
   padding: 20px;
   border-radius: 5px;
   box-shadow: 2px 2px rgba(54, 54, 54, 0.075);
+  grid-row: span 2;
 }
 
-.Patrick{
+.Jeanette {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 2px 2px rgba(54, 54, 54, 0.075);
+}
+
+.Patrick {
   background-color: #19202c;
   padding: 20px;
   border-radius: 5px;
   box-shadow: opx opx rgba(54, 54, 54, 0.075);
+  grid-column: span 2;
 }
