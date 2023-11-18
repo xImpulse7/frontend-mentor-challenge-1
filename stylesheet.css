@@ -21,6 +21,7 @@
   gap: 30px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
+  font-family: "Barlow Semi Condensed", sans-serif;
 }
 
 .Daniel {
@@ -30,7 +31,6 @@
   box-shadow: 5px 5px 10px rgba(102, 95, 141, 0.432);
   grid-column: span 2;
   color: white;
-  font-family: "Barlow Semi Condensed", sans-serif;
 }
 
 .heading {
@@ -44,9 +44,10 @@
 .name {
   display: flex;
   flex-direction: column;
-  font-weight: bold;
   font-size: large;
   gap: 5px;
+  font-weight: 500;
+  color: white;
 }
 
 .status {
@@ -68,11 +69,12 @@
 }
 
 .heading-quote {
-  font-weight: bolder;
-  font-size: 28px;
-  margin-top: 20px;
+  font-weight: 600;
+  font-size: 24px;
+  margin-top: 30px;
   margin-bottom: 30px;
   line-height: 1.2;
+  color: white;
 }
 
 .heading-quote2 {
@@ -80,11 +82,12 @@
   line-height: 1.4;
   font-size: larger;
 }
+
 .Jonathan {
   background-color: #49556a;
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 2px 2px rgba(54, 54, 54, 0.075);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(102, 95, 141, 0.432);
 }
 
 .Kira {
