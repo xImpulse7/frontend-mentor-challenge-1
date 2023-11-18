@@ -16,9 +16,9 @@
 
 .container {
   display: grid;
-  width: 70%;
-  height: 70%;
-  gap: 10px;
+  width: 80%;
+  height: 80%;
+  gap: 30px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
 }
@@ -27,9 +27,10 @@
   background-color: #7140c7;
   padding: 40px;
   border-radius: 10px;
-  box-shadow: 2px 2px rgba(54, 54, 54, 0.075);
+  box-shadow: 5px 5px 10px rgba(102, 95, 141, 0.432);
   grid-column: span 2;
   color: white;
+  font-family: "Barlow Semi Condensed", sans-serif;
 }
 
 .heading {
@@ -37,6 +38,7 @@
   align-items: center;
   height: 50px;
   gap: 10px;
+  margin-bottom: 30px;
 }
 
 .name {
@@ -47,6 +49,10 @@
   gap: 5px;
 }
 
+.status {
+  color: rgba(255, 255, 255, 0.562);
+}
+
 .images {
   width: 50px;
   height: 50px;
@@ -54,8 +60,25 @@
   border-radius: 50%;
 }
 
-.quote{
-    margin-left: 500px;
+.quote {
+  height: 10rem;
+  width: 10rem;
+  margin-top: 30px;
+  margin-left: 250px;
+}
+
+.heading-quote {
+  font-weight: bolder;
+  font-size: 28px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  line-height: 1.2;
+}
+
+.heading-quote2 {
+  color: rgba(255, 255, 255, 0.637);
+  line-height: 1.4;
+  font-size: larger;
 }
 .Jonathan {
   background-color: #49556a;
