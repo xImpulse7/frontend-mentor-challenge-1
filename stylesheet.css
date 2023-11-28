@@ -10,18 +10,20 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 100%;
   width: 100%;
 }
 
 .container {
   display: grid;
-  width: 80%;
-  height: 80%;
+  width: 70%;
+  height: 70%;
   gap: 30px;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
+  grid-template-rows: 0.5fr 0.5fr;
   font-family: "Barlow Semi Condensed", sans-serif;
+  margin-top: 80px;
+
 }
 
 .Daniel {
@@ -138,8 +140,13 @@
 
 .Patrick {
   background-color: #19202c;
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: opx opx rgba(54, 54, 54, 0.075);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(102, 95, 141, 0.432);
   grid-column: span 2;
 }
+
+.attribution{
+  margin-top: 20px;
+}
+
