@@ -23,7 +23,6 @@
   grid-template-rows: 0.5fr 0.5fr;
   font-family: "Barlow Semi Condensed", sans-serif;
   margin-top: 80px;
-
 }
 
 .Daniel {
@@ -146,7 +145,66 @@
   grid-column: span 2;
 }
 
-.attribution{
+.attribution {
   margin-top: 20px;
+  margin-bottom: 20px;
 }
+@media (max-width: 375px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    position: relative;
+  }
 
+  .quote {
+    height: 10rem;
+    width: 10rem;
+    margin-top: 30px;
+    position: fixed;
+    z-index: 0;
+  }
+
+  .Daniel {
+    padding: 30px;
+    width: 335px;
+  }
+
+  .Jonathan {
+    padding: 30px;
+    width: 335px;
+  }
+
+  .Jeanette {
+    padding: 30px;
+    width: 335px;
+  }
+
+  .Patrick {
+    padding: 30px;
+    width: 335px;
+  }
+  .Kira {
+    padding: 30px;
+    width: 335px;
+  }
+
+  .heading-quote2 {
+    font-size: 13px;
+  }
+
+  .heading-quote {
+    font-size: 18px;
+  }
+
+  .kira-quote {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .kira-quote2 {
+    font-size: 13px;
+  }
+}
